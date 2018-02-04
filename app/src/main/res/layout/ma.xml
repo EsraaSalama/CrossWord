@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math"
+    >
+
+    <TextView
+        android:id="@+id/big"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="@string/biggerthan"
+        android:textColor="#0000FF"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/equal"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:text="="
+        android:textColor="#FFFF00"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/small"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lessthan"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="280dp"
+        />
+    <TextView
+        android:id="@+id/txtbig"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#0000FF"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtequal"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="160dp"
+        />
+    <TextView
+        android:id="@+id/txtsmall"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:textColor="#FF0000"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="160dp"
+        />
+
+
+    <Chronometer
+        android:id="@+id/counter44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/alarm"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>
